@@ -6,7 +6,7 @@ class AndroidCallbackHelper {
 
 	}
 
-	public function onClose() {
+	public static function onClose() {
 		if (WebView.onClose!=null) {
 			WebView.onClose();
 		}
